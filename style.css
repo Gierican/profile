@@ -1,0 +1,88 @@
+body {
+  background-color: #FFFCFC;
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  color: #4C4C4C;
+  text-align: center;
+}
+
+h1, h2, a {
+  color: #CC0A00;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #CC0A00;
+  color: #FFFFFF;
+}
+
+table {
+  margin: 0 auto;
+}
+
+ul {
+ margin: 40px auto;
+ letter-spacing: 10px;
+ padding: 0;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+.card > div > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.card > ul > a > i {
+  font-size: 18px;
+  margin: 10px;
+  margin: 0 auto;
+}
+
+.card > div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.movie-card {
+  margin: 0 auto;
+}
+
+.movie-card > table > tbody > tr > td > img {
+  max-height: 300px;
+}
